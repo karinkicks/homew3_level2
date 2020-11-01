@@ -27,8 +27,8 @@ public class Main {
         dict.add("Петров", 12634);
         dict.add("Василенко", 1234);
         dict.showDict();
-        dict.getPhone("Рыбченко");
-        dict.getPhone("Шмелев");
+        System.out.println(dict.getPhone("Рыбченко"));
+        System.out.println(dict.getPhone("Шмелев"));
     }
 
     static void to_count_unique_names(ArrayList<String> names){
